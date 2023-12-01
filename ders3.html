@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+
+    <!-- Font Awesome CSS dosyasını ekleyin -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        header{
+            width: 1200px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo{
+            display: flex;
+ 
+        }
+        .logo span{
+            /* background-color: blueviolet; */
+            background-image: url(./Rectangle\ 114.png);
+            background-repeat: no-repeat;
+            background-size:cover;
+            padding: 5px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+        }
+        .logo span i{
+            margin-right: 10px;
+        }
+       .link a{
+        text-decoration: none;
+        margin-left: 10px;
+        color: rgba(66, 66, 66, 1);
+        }
+        section{
+            width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 130px;
+        }
+        .text-section h1{
+            color: rgba(208, 82, 112, 1);
+            font-size: 52px;
+        }
+        .text-section span{
+            font-size: 52px;
+            color: rgba(66, 66, 66, 1);
+        }
+        .text-section p{
+            width: 630px;
+            font-size: 18px;
+        }
+        .text-section-button button{
+            width: 200px;
+            height: 60px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-twitter{
+            background-color: rgba(71, 172, 223, 1);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .btn-linkedin{
+            background-color: rgba(18, 117, 177, 1);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .btn-medium{
+            background-color: rgba(0, 0, 0, 1);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .text-section-button{
+            display: flex;
+            gap: 20px;
+        }
+        .image-section{
+            position: relative;
+        }
+        .image-section .z-index-img{
+            position: absolute;
+            top: 40px;
+            z-index: -1;
+            width: 400px;
+            height: 250px;
+            border-radius: 15px;
+            background-color: rgba(208, 82, 112, 1);
+        }
+        .link-body{
+            width: 1200px;
+            margin-top: 80px;
+        }
+        .link-body a{
+            text-decoration: none;
+            margin-right: 70px;
+            color: rgba(66, 66, 66, 1);
+        }
+        main{
+            display: flex;
+            width: 1200px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 80px;
+        }
+        .left-box{
+            width: 590px;
+            height: 620px;
+        }
+        .rigth-box{
+            width: 590px;
+            height: 620px;
+        }
+        .left-box img{
+            height: 415px;
+        }
+        .rigth-box img{
+            height: 415px;
+        }
+        .img-text p{
+        color: rgba(66, 66, 66, 1);
+        }
+        .img-text h3,a{
+            color: rgba(208, 82, 112, 1);
+        }
+        footer{
+            margin: 80px 0;
+            padding: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"> 
+            <h1>sad zeppelins</h1>
+            <span><i class="fa-brands fa-linkedin"></i>Hire me</span>
+        </div>
+        <div class="link">
+            <a href="#">PORTFOLIO</a>
+            <a href="#">BLOG</a>
+            <a href="#">CV</a>
+            <a href="#">STORE</a>
+            <a href="#">FREELANCE</a>
+            <a href="#">ABOUT ME</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </header>
+
+    <section>
+
+        <div class="text-section">
+            <h1>Blog Posts</h1>
+            <span>I think so, this is it.</span>
+            <p>Design begins after I begin to think about how to present an experience most successfully, whether a button I put in can solve a problem. The only point in design is not ui design, if the user does not have a good experience at the end of the product, the design will be considered unsuccessful in my opinion.</p>
+            <div class="text-section-button">
+                <button class="btn-twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    <h2>Twitter</h2>
+                </button>
+                <button class="btn-linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h2>Linkedin</h2>
+                </button>
+                <button class="btn-medium">
+                    <i class="fa-brands fa-medium"></i>
+                    <h2>Medium</h2>
+                </button>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="./Saly-16.png" alt="">
+            <div class="z-index-img"></div>
+        </div>
+    </section>
+    
+    <div class="link-body">
+        <a href="#">All</a>
+        <a href="#">UI Design</a>
+        <a href="#">UX Design</a>
+        <a href="#">Product Design</a>
+        <a href="#">Articles</a>
+        <a href="#">Tutorials</a>
+        <a href="#">News</a>
+    </div>
+
+    <main>
+
+        <div class="left-box">
+            <img src="./Group 190.png" alt="">
+            <div class="img-text">
+                <p>NOV 23 2020</p>
+                <h3>This way is wrong about UI Design.</h3>
+                <p>A quick guide to assisting users in the challenging steps from learning 
+                about your podcast on the web.  A quick guide to assisting users in the challenging
+                 steps from learning about your podcast on the web. </p>
+                 <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="rigth-box">
+            <img src="./Group 190 (1).png" alt="">
+            <div class="img-text">
+                <p>NOV 23 2020</p>
+                <h3>This way is wrong about UI Design.</h3>
+                <p>A quick guide to assisting users in the challenging steps from learning 
+                about your podcast on the web.  A quick guide to assisting users in the challenging
+                 steps from learning about your podcast on the web. </p>
+                 <a href="#">Read more</a>
+            </div>
+        </div>
+
+
+        <div class="left-box">
+            <img src="./Group 190.png" alt="">
+            <div class="img-text">
+                <p>NOV 23 2020</p>
+                <h3>This way is wrong about UI Design.</h3>
+                <p>A quick guide to assisting users in the challenging steps from learning 
+                about your podcast on the web.  A quick guide to assisting users in the challenging
+                 steps from learning about your podcast on the web. </p>
+                 <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="rigth-box">
+            <img src="./Group 190 (1).png" alt="">
+            <div class="img-text">
+                <p>NOV 23 2020</p>
+                <h3>This way is wrong about UI Design.</h3>
+                <p>A quick guide to assisting users in the challenging steps from learning 
+                about your podcast on the web.  A quick guide to assisting users in the challenging
+                 steps from learning about your podcast on the web. </p>
+                 <a href="#">Read more</a>
+            </div>
+        </div>
+
+
+        <div class="left-box">
+            <img src="./Group 190.png" alt="">
+            <div class="img-text">
+                <p>NOV 23 2020</p>
+                <h3>This way is wrong about UI Design.</h3>
+                <p>A quick guide to assisting users in the challenging steps from learning 
+                about your podcast on the web.  A quick guide to assisting users in the challenging
+                 steps from learning about your podcast on the web. </p>
+                 <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="rigth-box">
+            <img src="./Group 190 (1).png" alt="">
+            <div class="img-text">
+                <p>NOV 23 2020</p>
+                <h3>This way is wrong about UI Design.</h3>
+                <p>A quick guide to assisting users in the challenging steps from learning 
+                about your podcast on the web.  A quick guide to assisting users in the challenging
+                 steps from learning about your podcast on the web. </p>
+                 <a href="#">Read more</a>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <img src="./Vector.png" alt="">
+        <img src="./Group 6.png" alt="">
+    </footer>
+</body>
+</html>
